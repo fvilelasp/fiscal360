@@ -2158,7 +2158,7 @@ function renderIntro() {
     </div>`;
   }
 
-  else if (step === 2) {
+  else if (step === 3) {
     body = `<div class="ch-head"><div class="ch-eyebrow">O que é</div>
       <h2 class="ch-title">Uma plataforma de dados NoSQL com schema flexível</h2>
       <p class="ch-lead">Em vez de espalhar uma nota fiscal por várias tabelas, o MongoDB guarda <b>cada nota inteira em um único documento</b>. Formatos diferentes convivem na mesma coleção e mudanças de legislação entram sem migração.</p></div>
@@ -2190,7 +2190,7 @@ function renderIntro() {
       </div>`;
   }
 
-  else if (step === 3) {
+  else if (step === 4) {
     body = `<div class="ch-head"><div class="ch-eyebrow">Capacidades</div>
       <h2 class="ch-title">Quatro capacidades sobre o mesmo dado</h2>
       <p class="ch-lead">Continuação do modelo de documento — o que ele habilita num cenário fiscal. <span class="ch-hint">Clique em cada cartão para a explicação visual.</span></p></div>
@@ -2218,7 +2218,7 @@ function renderIntro() {
       </div>`;
   }
 
-  else if (step === 4) {
+  else if (step === 2) {
     body = `<div class="ch-head"><div class="ch-eyebrow">O cenário</div>
       <h2 class="ch-title">Desafios tecnológicos no cenário fiscal</h2></div>
       <div class="kpi-grid big">
@@ -2343,9 +2343,9 @@ let challengeView = 'frag';
 let introStep = 1;
 const INTRO_CHAPTERS = [
   { n:1, label:'Abertura' },
-  { n:2, label:'O que é' },
-  { n:3, label:'Capacidades' },
-  { n:4, label:'Desafios' },
+  { n:2, label:'Desafios' },
+  { n:3, label:'O que é' },
+  { n:4, label:'Capacidades' },
   { n:5, label:'Por que encaixa' },
   { n:6, label:'Em resumo' }
 ];
